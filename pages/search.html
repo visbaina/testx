@@ -1,0 +1,22 @@
+---
+layout: page
+title: Хайлт
+---
+
+<div class="page page-search">
+  <input id="search-input" type="text" placeholder="^_^"></input>
+  <h1>
+    <span></span>
+    <i class="svg-icon icon-loading"></i>
+  </h1>
+  <ul class="list-search">
+    {%- for post in site.posts  %}
+    <li hidden>
+      <a href="{{site.baseurl}}{{ post.url }}">
+        <p class="title">{{ post.title }}</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+</div>

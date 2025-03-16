@@ -1,0 +1,36 @@
+encoding: utf-8
+
+plugins:
+  - jekyll-regex-replace
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+title: ᠠᠷᠪᠢᠰ
+description: Соёлын ажиглалтууд
+url: "http://arvis.xyz"
+tagline: Соёлын ажиглалтууд
+logo: "/static/img/logo.jpg"
+keywords: Хүн,Соёл,Түүх,Нийгэм,Урлаг,Аялал,Уран зохиол,Ном
+author: ᠠᠷᠪᠢᠰ
+footerText: '᠒᠐᠒᠕ ᠠᠷᠪᠢᠰ'
+
+permalink: /posts/:year/:month/:day/:title.html
+kramdown:
+  auto_ids: true
+  input: GFM
+  syntax_highlighter: rouge
+exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
+
+domainUrl: 'http://arvis.xyz'
+baseurl: ''
+
+google_analytics: "G-C80FJYNJFK"
+
+extClickEffect: true
+
+extAdsense: false
+
+extMath: false
+
+extCount: false

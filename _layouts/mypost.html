@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="mn-MN">
+{% include head.html -%}
+<body>
+{% include header.html -%}
+<div class="page page-post">
+  <h1 class="title" id="{{ page.title }}">{{ page.title }}</h1>
+  {% if page.date %}
+  <div class="subtitle">
+    <span>{{ page.date | date: "%Y-%m-%d" }}</span>
+  </div>
+  {% endif %}
+  <div class="post">
+    {{ content }}
+  </div>
+  <div class="post-nav">
+  <div>
+    {% if page.previous.url %}
+      <a href="{{page.previous.url}}">
+        <span class="unsighted">Өмнөх нийтлэл:</span>
+        <span aria-hidden="true">&laquo;</span>
+        {{page.previous.title}}
+      </a>
+    {% endif %}
+  </div>
+  <div class="post-nav-next">
+    {% if page.next.url %}
+    {% assign next_post_title_array = page.next.title | split: " " %}
+    {% assign next_post_cape_length = next_post_title_array | size | minus: 1 %}
+    {% assign next_post_cape = page.next.title | truncatewords: next_post_cape_length, "" %}
+    {% assign next_post_spit = next_post_title_array | last %}
+    <a href="{{page.next.url}}">
+      <span class="unsighted">Дараах нийтлэл:</span>
+      {{next_post_cape}}
+      <span style="white-space: nowrap;">
+      {{next_post_spit}}
+      <span aria-hidden="true">&raquo;</span>
+      </span>
+    </a>
+    {% endif %}
+  </div>
+</div>
+  {% if site.extAdsense -%}
+  <div class="adsense" style="overflow: hidden;">
+    {% include ext-adsense.html -%}
+  </div>
+  {% endif %}
+</div>
+{% include footer.html -%}
+{% include script.html -%}
+</body>
+</html>

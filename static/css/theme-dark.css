@@ -1,0 +1,104 @@
+html.dark {
+  color: #ededed;
+  background: #212121;
+}
+html.dark ::selection {
+  background-color: #e0e0e0;
+  color: #ededed;
+}
+html.dark ::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: rgb(224, 224, 224);
+}
+html.dark img {
+  filter: brightness(0.8) contrast(1.2);
+}
+html.dark .header .logo {
+  filter: invert(100%);
+}
+html.dark .footer a {
+  color: #ededed;
+}
+html.dark .list-category div a {
+  border-bottom: 1px solid #9c9c9c;
+}
+html.dark .list-post li .date {
+  color: #ededed;
+}
+html.dark .list-post li .categories a {
+  color: #ededed;
+}
+html.dark .hover-underline:after {
+  background-color: #d6d6d6;
+}
+html.dark .page-post .title {
+  color: #ededed;
+}
+html.dark .page-post img {
+  box-shadow: none;
+}
+html.dark .page-post .subtitle {
+  color: #ededed;
+}
+html.dark .page-post code {
+  background-color: rgb(51, 51, 51);
+  color: #ededed;
+}
+html.dark .page-post a {
+  color: #ededed;
+  border-bottom: 1px solid #ededed;
+}
+html.dark .page-post strong {
+  color: #ededed;
+}
+html.dark .page-post b {
+  color: #ededed;
+}
+html.dark .page-post blockquote {
+  border-left: 3px solid #616161;
+  background-color: rgb(51, 51, 51);
+  color: #ededed;
+}
+html.dark .page-post .table-container {
+  border: 1px solid #3b434b;
+}
+html.dark .page-post table {
+  border: 1px solid #3b434b;
+}
+html.dark .page-post tr {
+  border-bottom: 1px solid #3b434b;
+}
+html.dark .page-post hr {
+  background-color: #30363d;
+}
+html.dark .page-post table tr:nth-child(even) {
+  background-color: #161b22;
+}
+html.dark .page-post iframe {
+  opacity: 0.8;
+}
+html.dark .page-search #search-input {
+  color: #f0f6fc;
+  border: 1px solid #21262d;
+}
+html.dark .page-search #search-input::-webkit-input-placeholder {
+  color: #c2c3c5;
+}
+html.dark .page-search h1 i {
+  background-color: #ededed;
+}
+html.dark .page-search .list-search .content {
+  color: #a6aeb7;
+}
+html.dark .footer-btn {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+html.dark .footer-btn i {
+  opacity: 0.7;
+}
+html.dark .welcome {
+  font-size: 17px
+  border-left: 3px solid #616161;
+  background-color: rgb(51, 51, 51);
+  color: #ededed;
+}
