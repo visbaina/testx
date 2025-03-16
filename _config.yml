@@ -8,7 +8,7 @@ plugins:
 
 title: ᠠᠷᠪᠢᠰ
 description: Соёлын ажиглалтууд
-url: "/testx"
+
 tagline: Соёлын ажиглалтууд
 logo: "/static/img/logo.jpg"
 keywords: Хүн,Соёл,Түүх,Нийгэм,Урлаг,Аялал,Уран зохиол,Ном
@@ -23,7 +23,7 @@ kramdown:
 exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
 
 domainUrl: 'https://visbaina.github.io'
-baseurl: ''
+baseurl: '/testx'
 
 google_analytics: ""
 
