@@ -8,7 +8,7 @@ plugins:
 
 title: ᠠᠷᠪᠢᠰ
 description: Соёлын ажиглалтууд
-url: "http://arvis.xyz"
+url: "https://visbaina.github.io/testx"
 tagline: Соёлын ажиглалтууд
 logo: "/static/img/logo.jpg"
 keywords: Хүн,Соёл,Түүх,Нийгэм,Урлаг,Аялал,Уран зохиол,Ном
@@ -22,10 +22,10 @@ kramdown:
   syntax_highlighter: rouge
 exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
 
-domainUrl: 'http://arvis.xyz'
+domainUrl: 'https://visbaina.github.io/testx'
 baseurl: ''
 
-google_analytics: "G-C80FJYNJFK"
+google_analytics: ""
 
 extClickEffect: true
 
